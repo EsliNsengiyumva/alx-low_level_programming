@@ -1,8 +1,12 @@
 #include <stdio.h>
 
 
+/**
+ *
+ *This program print out numbers from 00 to 99
+ *
+ */
 
-// This program print out numbers from 00 to 99
 
 
 int main(void)
