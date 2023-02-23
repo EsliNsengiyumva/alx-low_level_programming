@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
+ * main - print numbers from 00 to 99.
  *
- * prints all possible different combinations of two digits of numbers from 01 to 89
- *
+ * Return: 0 on success
  */
-
 int main(void)
 {
 	int i = 0;
