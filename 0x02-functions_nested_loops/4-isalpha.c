@@ -5,9 +5,9 @@
  * Return: 1 if the character is an English character.
  * 0 if the character is not an English character.
  */
-int _isalpha(int j)
+int _isalpha(int c)
 {
-	if ((j >= 'a' && j <= 'z') || (j >= 'A' && j <= 'Z'))
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
 	else
 		return (0);
