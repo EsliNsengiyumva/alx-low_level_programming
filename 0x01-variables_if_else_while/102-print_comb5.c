@@ -1,14 +1,10 @@
 #include <stdio.h>
-
-
 /**
- *
- *This program print out numbers from 00 to 99
- *
+ * main - Prints all possible combinations of a pair of
+ * two digit numbers, without any repetition.
+(*
+ * Return: 0 success
  */
-
-
-
 int main(void)
 {
 	int i = 0;
