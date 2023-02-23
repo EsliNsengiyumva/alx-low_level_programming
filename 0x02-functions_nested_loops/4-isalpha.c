@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpha function- tests whether a character is from the English alphabet.
+ * 4-isalpha.c: function- tests whether a character is from the English alphabet.
  * @j: index  to be checked.
  * Return: 1 if this index indicated the character find in English character.
  * 0 if the character is not an English character.
