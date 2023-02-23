@@ -1,11 +1,8 @@
 #include <stdio.h>
-
 /**
- *
- * Display numbers from 0 to 9 with separation of comma and space
- * 
+ * main - prints all possible combinations of single digit numbers.
+  * Return: 0 on success
  */
-
 int main(void)
 {
 	int i;
