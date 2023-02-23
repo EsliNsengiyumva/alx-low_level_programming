@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 /**
-  * Print numbers from 00 to 99
+ * main - print numbers from 00 to 99.
+(*
+ * Return: 0 on success
+ *
  */
 
 int main(void)
