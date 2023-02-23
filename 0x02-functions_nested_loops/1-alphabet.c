@@ -1,4 +1,3 @@
-//#include <stdio.h>
 #include "main.h"
 /**
  * print_alphabet - prints the english alphabet from a-z.
@@ -12,10 +11,5 @@ void print_alphabet(void)
 	{
 		_putchar(c);
 	}
-	putchar('\n');
-}
-int main(void)
-{
-    print_alphabet();
-    return (0);
+	_putchar('\n');
 }
