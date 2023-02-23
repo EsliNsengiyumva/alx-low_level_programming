@@ -5,14 +5,11 @@
  * @c: single letter input
  * Return: 1 if int c is lowercase, 0 if otherwise
  */
-int _islower(char c)
+int _islower(int j)
 {
-	if (c >= 'a' && c <= 'z')
+	if (j >= 'a' && j <= 'z')
 		return (1);
 	else
 		return (0);
 }
-void main(){
 
-_islower(u);
-}
