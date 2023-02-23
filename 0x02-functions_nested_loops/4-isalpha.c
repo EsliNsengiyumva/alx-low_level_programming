@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * isalpha.c:print character is from the English alphabet.
+ * 4_isalpha.c: print the English alphabet.
  * @j: index  to be checked.
- * Return: 1  index indicated the character find in English character.
- * 0 if the character is not an English character.
+ * Return: 1  index indicated the character found.
  */
 int _isalpha(int j)
 {
