@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- * main -program that prints _putchar, followed by a new line..
+ * main - program that prints _putchar.
  * Return: 0 on success.
  */
 int main(void)
 {
-	char c[] = "_putchar";
+	char c[] = "Holberton";
 	int i;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < 9; i++)
 	{
 		_putchar(c[i]);
 	}
