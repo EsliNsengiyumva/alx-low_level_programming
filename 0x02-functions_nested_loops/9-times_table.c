@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * times_table:prints the 9 times table.
+ * times_table - prints the times table from 0 - 9.
 (*
  * Return: Nothing.
  */
