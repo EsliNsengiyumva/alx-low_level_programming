@@ -1,6 +1,6 @@
-#include "holberton.h"
+#include "main.h"
 /**
- * print_times_table:function that prints the n times table.
+ * print_times_table:prints the n times table.
  * @n: The multiplication table requested.
  * Return: Nothing.
  */
