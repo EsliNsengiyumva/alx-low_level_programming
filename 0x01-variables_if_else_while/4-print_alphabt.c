@@ -1,20 +1,25 @@
 #include <stdio.h>
 
 /**
+ * main- Entry point
+ * @void: Null value
  *
- * Display alphabet except q and e
+ * Description: Print alphabet lowercase
+ * Return: Zero value
  */
 
 int main(void)
 {
-	char i;
+	char c;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (i == 'q' || i == 'e')
+		if (c == 'q' || c == 'e')
 			continue;
-		putchar(i);
+		putchar(c);
 	}
 	putchar('\n');
 	return (0);
 }
+Footer
+© 2023 GitHub, 
