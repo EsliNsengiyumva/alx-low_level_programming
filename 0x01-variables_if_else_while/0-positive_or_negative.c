@@ -3,10 +3,13 @@
 #include <stdio.h>
 
 /**
- * main - Determine if a random number is positive, negative or zero.
+ * main - Check if a number.
+ * @void: Null value
  *
- * Return: 0 on success
+ * Description: Print if a number is positive, negative or zero
+ * Return: Zero value
  */
+
 int main(void)
 {
 	int n;
@@ -15,15 +18,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf(" Number is positive:%d\n", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n < 0)
 	{
-		printf(" Number is negative:%d\n", n);
+		printf("%d is negative\n", n);
 	}
 	else
 	{
-		printf(" The result is zero:%d\n", n);
+		printf("%d is zero\n", n);
 	}
 	return (0);
 }
