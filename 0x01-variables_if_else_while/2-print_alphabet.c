@@ -1,12 +1,9 @@
 #include <stdio.h>
-
 /**
-
  *
  * This program prints alphabet lowercase
  *
  */
-
 int main(void)
 {
 	char i;
@@ -15,7 +12,6 @@ int main(void)
 	{	putchar(i);
 		
         }
-
 	putchar('\n');
 	return (0);
 }
