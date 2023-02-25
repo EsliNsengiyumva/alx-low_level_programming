@@ -1,12 +1,8 @@
 #include <stdio.h>
-
 /**
- 
- *
- * Use puchar to print numbers from 0 to 9
- *
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int i;
