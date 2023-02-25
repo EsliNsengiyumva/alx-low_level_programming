@@ -20,4 +20,6 @@ int main(void)
 	}
 		printf("\n");
 
-	ret
+	return (0);
+}
+
