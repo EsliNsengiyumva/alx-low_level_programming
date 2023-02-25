@@ -2,7 +2,8 @@
 #include <stdio.h>
 /**
  * main - check the code
- *
+ * print_to_98-implentation of function
+ * n-index counter
  * Return: Always 0.
  */
 void print_to_98(int n)
