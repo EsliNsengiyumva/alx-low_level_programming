@@ -1,11 +1,9 @@
- #include <stdio.h>
-
+#include <stdio.h>
 /**
  *
  * Print alphabet in reverse
  * 
  */
-
 int main(void)
 {
 	char i;
