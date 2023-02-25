@@ -2,7 +2,6 @@
 /**
  * main- Entry point
  * @void: Null value
- *
  * Description: Print alphabet lowercase
  * Return: Zero value
  */
