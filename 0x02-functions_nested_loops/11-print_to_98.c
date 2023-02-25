@@ -1,10 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - check the code
- * print_to_98-implentation of function
- * n-index counter
- * Return: Always 0.
+ * print_to_98 - print all natural numbers from n to 98.
+ * @n: the number to start counting from to 98
+ * Return: void returns nothing.
  */
 void print_to_98(int n)
 {
