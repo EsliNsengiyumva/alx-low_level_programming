@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_to_98:function that prints numbers from n to 98.
- * @n: the number to start counting from to 98
- * Return: void returns nothing.
+ * main - check the code
+ *
+ * Return: Always 0.
  */
 void print_to_98(int n)
 {
