@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * palindrome2 - obtains length of a
  * @i: string
@@ -11,7 +12,7 @@ int palindrome2(char *i, int j)
 {
 	if (*i == 0)
 		return (j - 1);
-	return (palind2(i + 1, i + 1));
+	return (palindrome2(i + 1, j + 1));
 }
 /**
  * palindrome3 - compares string vs string reverse
@@ -39,8 +40,9 @@ int palindrome3(char *i, int j)
  */
 int is_palindrome(char *s)
 {
-	int j;
+	int t;
 
-	j = palindrome2(s, 0);
-	return (palindrome3(s, j));
+	t = palindrome2(s, 0);
+	return (palindrome3(s, t));
 }
+
