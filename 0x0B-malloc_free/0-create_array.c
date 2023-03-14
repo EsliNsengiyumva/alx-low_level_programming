@@ -1,28 +1,31 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
-
 /**
- * create_array - function that creates an array of chars, and initializes it
- *                with a specific char.
+ * create_array - creates an array of chars,
+ * and initializes it with a specific char.
  *
- * @size: This is the length of the array
- * @c: This is the input character
+ * @size: size of the array
+ * @c: the default char
  *
- * Return: An Array Initialized with the specific char
+ * Return:  a pointer to the array,
+ * or NULL if it fails
  */
-
 char *create_array(unsigned int size, char c)
 {
-	unsigned int a;
-	char *s;
-
-	s = (char *) malloc(size * sizeof(char));
-	if (s == NULL)
+	char *string;
+	unsigned int i;
+ 
+	if (size <= 0)
 		return (NULL);
-	for (a = 0; a < size; a++)
-	{
-		s[a] = c;
-	}
-	return (s);
+ 
+	string = malloc(sizeof(char) * size);
+ 
+	if (!string)
+		return (string);
+	for (i = 0; i < size; i++)
+		string[i] = c;
+ 
+	return (string);
 }
+
