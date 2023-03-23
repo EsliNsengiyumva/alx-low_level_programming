@@ -1,22 +1,49 @@
-#ifndef _HEADER_
-#define _HEADER_
+#include "3-calc.h"
+#include <stdlib.h>
+#include <string.h>
 
 /**
- * struct op - Struct op
+<<<<<<< HEAD
+ * get_op_func - ...
+ * @s: ...
  *
- * @op: The operator
- * @f: The function associated
+ * Return: ...
  */
-typedef struct op
+=======
+  * get_op_func - ...
+  * @s: ...
+  *
+  * Return: ...
+  */
+>>>>>>> 27b4117ba9e8f5489dde71fcc3fe32e3019c6dfa
+int (*get_op_func(char *s))(int, int)
 {
-	char *op;
-	int (*f)(int a, int b);
-} op_t;
+	op_t ops[] = {
+	{ "+", op_add },
+	{ "-", op_sub },
+	{ "*", op_mul },
+<<<<<<< HEAD
+	{ "/", op_div }
+=======
+	{ "/", op_div },
+>>>>>>> 27b4117ba9e8f5489dde71fcc3fe32e3019c6dfa
+	{ "%", op_mod },
+	{ NULL, NULL }
+	};
+	int i = 0;
 
-int op_add(int a, int b);
-int op_sub(int a, int b);
-int op_mul(int a, int b);
-int op_div(int a, int b);
-int op_mod(int a, int b);
-int (*get_op_func(char *s))(int, int);
-#endif
+	while (i < 5)
+	{
+		if (strcmp(s, ops[i].op) == 0)
+			return (ops[i].f);
+<<<<<<< HEAD
+		
+=======
+
+>>>>>>> 27b4117ba9e8f5489dde71fcc3fe32e3019c6dfa
+		i++;
+	}
+
+	return (0);
+}
+
