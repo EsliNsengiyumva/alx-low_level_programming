@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - entry point
  * @argc: number of arguments passed to the function.
@@ -8,6 +9,7 @@
  *
  * Return: integer number.
  */
+
 int main(int argc, char *argv[])
 {
 	int inputFD, outputFD, nBytes_read, nBytes_write;
