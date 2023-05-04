@@ -2,7 +2,8 @@
 
 /**
  * get_endianness - checks the endianness
- *
+ * @i: initial variable
+ * @j: receiver casting variable
  * Return: 0 if big endian, 1 if little endian
  */
 int get_endianness(void)

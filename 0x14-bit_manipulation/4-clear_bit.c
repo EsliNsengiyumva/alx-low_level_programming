@@ -5,7 +5,7 @@
  * at a given index.
  * @n: pointer of an unsigned long int.
  * @index: index of the bit.
- *
+ * @j: variable for setting a bitwise
  * Return: 1 if it worked, -1 if it didn't.
  */
 int clear_bit(unsigned long int *n, unsigned int index)

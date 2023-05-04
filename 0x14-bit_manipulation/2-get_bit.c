@@ -5,6 +5,7 @@
  * index.
  * @n: unsigned long int input.
  * @index: index of the bit.
+ * @j: count variable
  *
  * Return: value of the bit.
  */
