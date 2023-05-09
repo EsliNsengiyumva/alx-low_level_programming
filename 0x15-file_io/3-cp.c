@@ -4,15 +4,12 @@
  * main - entry point
  * @argc: number of arguments passed to the function.
  * @argv: two files.
- * @inputFD: input File Discription.
- * @outputFD: output File Discription.
- *
  * Return: integer number.
  */
 
 int main(int argc, char *argv[])
 {
-	int nBytes_read, nBytes_write, inputFD, outputFD, nBytes_read, nBytes_write;
+	int inputFD, outputFD, nBytes_read, nBytes_write;
 	char txt[BUF_SIZE];
 
 	if (argc != 3)
